@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Tout ce qui ne s'affiche pas (gestion de la page) -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Faire le lien avec les autres fichiers  (CSS = style & JS = Animations/fonctions )-->
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Nom de ta page -->
+    <title>Eden Mantoux</title>
+    <link rel="icon" type="image/png" href="./src/Logo.png">
+</head>
+
+
+<!-- Le body c'est le corps de ta page (->C'est ce qui va s'afficher). Il s'agit de placer tout les éléments (texte, photos, boutons, etc...) sans aucun style (couleur, taille, etc...)   -->
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logoContainer">
+                        <img src="./src/Logo.png" alt="Logo">
+                    </div>
+                </a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="citationBlock">
+            <h1 class="poppins-regular">Eden Mantoux</h1>
+        </div>
+    </section>
+
+    <div id="mainContainer">
+        <div id="imageContainer">
+            <img src="./src/eden.png" alt="">
+        </div>
+        <div class="presentationBlock">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia autem alias vero. Provident hic adipisci, consectetur facilis, veritatis harum autem totam quas maiores corporis voluptatum molestiae distinctio ullam blanditiis architecto in, minima sapiente nostrum doloremque debitis porro velit! Possimus quaerat fugiat alias nemo. Corporis hic voluptatum maiores numquam veniam deleniti velit adipisci. Consequatur distinctio magni, obcaecati officia inventore incidunt in perspiciatis labore adipisci velit repellat? Ab maxime eius voluptates voluptatem animi suscipit quod. Enim facilis aut, dolorum ea vero omnis consequuntur modi praesentium esse minus error neque tempore ipsa explicabo blanditiis facere eaque velit voluptatibus nostrum rerum quaerat beatae ab? Eum, reiciendis, mollitia quae tenetur accusamus dolores velit blanditiis, repellendus expedita quidem laudantium quaerat amet? Reprehenderit, ipsam necessitatibus! Molestias necessitatibus iste, maiores adipisci quod eos deleniti labore unde animi, iusto, rerum deserunt voluptas eligendi quibusdam fugiat nobis nihil fuga. Officia ducimus accusantium cupiditate ad, non molestias aliquam. Nisi, pariatur ad.</p>
+        </div>
+
+    </div>
+    <div class="otherContainer">
+        <p>Contact</p>
+    </div>
+    <div class="mentionContainer">
+        <p>
+            © 2024 par Alex Mantoux
+        </p>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+
+    </script>
+
+    
+</body>
+</html>

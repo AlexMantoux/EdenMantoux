@@ -1,0 +1,9 @@
+.CvContainer{
+    width: 50px;
+    height: auto;
+}
+
+.CvContainer img{
+    width: 100%;
+    height: 100%;
+}
