@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projet.css">
+    <title>Projets</title>
+    <link rel="icon" type="image/png" href="./src/Logo.png">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logoContainer">
+                        <img src="./src/Logo.png" alt="Logo">
+                    </div>
+                </a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="etude.html">Études</a></li>
+                    <li><a href="projet.html">Projets</a></li>
+                    <li><a href="experiences.html">Expériences</a></li>
+                    <li><a href="interet.html">Centres d'intérêt</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home" id="projet">
+        <div class="citationBlock">
+            <h1 class="poppins-regular">Projets</h1>
+        </div>
+    </section>
+
+    <div class="ProjetContainer">
+        <div class="titreProjet">
+            <h1 class="poppins-regular">MES PROJETS</h1>
+        </div>
+        <div class="containerColumn">
+            <div class="containerProjets">
+                <a href="./projet1.html" id="projet1" class="projet">
+                    <img src="" alt="">
+                    <p class="descriptionProjet">Schéma sur la riziculture en Camargue</p>
+                </a>
+                <a href="./projet2.html" id="projet2" class="projet">
+                    <img src="" alt="">
+                    <p class="descriptionProjet">Les mesures d’aménagement pour la protection des rapaces nocturnes : l’exemple des espèces de chouettes en Bourgogne</p>
+                </a>
+                <a href="./projet3.html" id="projet3" class="projet">
+                    <img src="" alt="">
+                    <p class="descriptionProjet">L’écoquartier de l'Arsenal à Dijon</p>
+                </a>
+            </div>
+
+            <div class="containerProjets">
+                <a href="./projet4.html" id="projet4" class="projet">
+                    <img src="" alt="">
+                    <p  class="descriptionProjet">Vulnérabilités humaines et espaces fragiles : le cas des épisodes cévenols</p>
+                </a>
+                <a href="./projet5.html" id="projet5" class="projet">
+                    <img src="" alt="">
+                    <p class="descriptionProjet">Peut-on accéder à la nature à moins de 15 min à Lyon ?</p>
+                </a>
+                <a href="./projet6.html" id="projet6" class="projet">
+                    <img src="" alt="">
+                    <p class="descriptionProjet"></p>
+                </a>
+            </div>
+
+            <div class="containerProjets">
+                <a href="./projet7.html" id="projet7" class="projet">
+                    <img src="" alt="">
+                    <p class="descriptionProjet">L'impact des embruns marins sur la végétation</p>
+                </a>
+                <a href="./projet8.html" id="projet8" class="projet">
+                    <img src="" alt="">
+                    <p class="descriptionProjet">Nuclear energy</p>
+                </a>
+                <a href="./projet9.html" id="projet9" class="projet">
+                    <img src="./projet9.html" alt="">
+                    <p class="descriptionProjet">Développer la marche comme moyen de transport à Montpellier</p>
+                </a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="contact">
+        <div>
+            <h1 class="poppins-regular" >eden.mantoux@gmail.com</h1>
+        </div>
+            <div class="subContact">
+                <h2 class="poppins-regular" >07 82 54 94 68</h2>
+                <h2>·</h2>
+                <h2 class="poppins-regular" >16 rue de Mulhouse - 21000 Dijon</h2>
+                <h2>·</h2>
+                <h2 class="poppins-regular">
+                    <a href="https://www.linkedin.com/in/eden-mantoux-7a6bb4295/">LinkedIn</a>
+                </h2>
+            </div>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/script.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+    
+</body>
+</html>

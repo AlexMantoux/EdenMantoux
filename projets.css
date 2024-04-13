@@ -1,0 +1,169 @@
+
+#projet1{
+    background-image: url(https://images.unsplash.com/photo-1677842284914-ca67e03733d4?q=80&w=3134&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center top;
+    background-size:cover;
+    backdrop-filter: blur(50px);;
+    padding-bottom: 100px;
+}
+#projet2{
+    background-image: url(https://images.unsplash.com/photo-1553264701-d138db4fd5d4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center top;
+	background-size:cover;
+    backdrop-filter: blur(50px);;
+        padding-bottom: 100px;
+}
+#projet3{
+    background-image: url(./src/projet1.jpeg);
+    background-position: center top;
+	background-size:cover;
+    backdrop-filter: blur(50px);;
+        padding-bottom: 100px;
+}
+#projet4{
+    background-image: url(https://images.unsplash.com/photo-1681486647518-4ecd3cd94ee1?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center top;
+	background-size:cover;
+    backdrop-filter: blur(50px);;
+        padding-bottom: 100px;
+}
+#projet5{
+    background-image: url(https://images.unsplash.com/photo-1519331379826-f10be5486c6f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center top;
+	background-size:cover;
+    backdrop-filter: blur(50px);;
+        padding-bottom: 100px;
+}
+#projet6{
+    background-image: url(./src/projet2.jpeg);
+    background-position: center top;
+	background-size:cover;
+    backdrop-filter: blur(50px);;
+        padding-bottom: 100px;
+}
+#projet7{
+    background-image: url(https://images.unsplash.com/photo-1622361651753-13c3a23a1da9?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center top;
+	background-size:cover;
+    backdrop-filter: blur(50px);;
+        padding-bottom: 100px;
+}
+#projet8{
+    background-image: url(https://images.unsplash.com/photo-1630142895963-6996ae6b3a5b?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center top;
+	background-size:cover;
+    backdrop-filter: blur(50px);;
+        padding-bottom: 100px;
+}
+#projet9{
+    background-image: url(https://images.unsplash.com/photo-1619523439722-c27651e8e10e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center top;
+	background-size:cover;
+    backdrop-filter: blur(50px);;
+        padding-bottom: 100px;
+}
+
+
+
+.titreProjet{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.titreProjet h1{
+    width: 800px;
+    margin-bottom: 100px;
+
+}
+
+.pdfSection{
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.pdfContainer{
+    font-size: 20px;
+    background-color: #034f27;
+    padding: 15px;
+    border-radius: 50px;
+    transition: ease-out 0.2s;
+    text-align: center;
+    width: 170px;
+
+}
+
+
+.pdfContainer a{
+    color: white;
+    font-weight:500;
+    text-decoration: none;
+
+}
+
+.pdfContainer:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+.pdfContainer img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.UEText{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.accroche{
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 5em;
+    color: white;
+}
+
+.competenceContainer{
+    font-size: 20px;
+}
+
+.competenceContainer > p{
+    font-weight: 700;
+    color: white;
+
+}
+
+.competences{
+    padding-left: 60px;
+    color: white;
+
+}
+
+.goBack{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    border-bottom-right-radius: 100px;
+    font-size: 26px;
+    background-color: rgba(3, 79, 39, 1);
+    transition: all 0.2s ease-in-out;
+}
+
+.goBack:hover{
+    background-color: rgba(3, 79, 39, 0.7);
+}

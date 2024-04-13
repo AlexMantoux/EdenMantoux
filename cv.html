@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cv.css">
+    <title>CV</title>
+    <link rel="icon" type="image/png" href="./src/Logo.png">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logoContainer">
+                        <img src="./src/Logo.png" alt="Logo">
+                    </div>
+                </a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="etude.html">Études</a></li>
+                    <li><a href="projet.html">Projets</a></li>
+                    <li><a href="experiences.html">Expériences</a></li>
+                    <li><a href="interet.html">Centres d'intérêt</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home" id="mainContainer2">
+        <div class="CvContainer">
+            <a href="./src/CV_MASTER_Mantoux.pdf" download="CV_Eden_Mantoux.pdf">
+                Téléchargez mon CV
+            </a>
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+    
+</body>
+</html>

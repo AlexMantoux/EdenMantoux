@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Tout ce qui ne s'affiche pas (gestion de la page) -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Faire le lien avec les autres fichiers  (CSS = style & JS = Animations/fonctions )-->
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Nom de ta page -->
+    <title>Eden Mantoux</title>
+    <link rel="icon" type="image/png" href="./src/Logo.png">
+</head>
+
+
+<!-- Le body c'est le corps de ta page (->C'est ce qui va s'afficher). Il s'agit de placer tout les éléments (texte, photos, boutons, etc...) sans aucun style (couleur, taille, etc...)   -->
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logoContainer">
+                        <img src="./src/Logo.png" alt="Logo">
+                    </div>
+                </a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="etude.html">Études</a></li>
+                    <li><a href="projet.html">Projets</a></li>
+                    <li><a href="experiences.html">Expériences</a></li>
+                    <li><a href="interet.html">Centres d'intérêt</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="citationBlock">
+            <h1 class="poppins-regular">Eden Mantoux</h1>
+            <p class="poppins-regular">Étudiante en Géographie & Aménagement</p>
+        </div>
+    </section>
+
+    <div>
+        <p style="text-align: start; font-size: 40px; margin-left: 190px; margin-top: 100px;" class="poppins-regular"><b>À propos</b></p>
+        <div id="mainContainer">
+            <div id="imageContainer">
+                <img src="./src/eden.png" alt="">
+            </div>
+            <div class="presentationBlock">
+                <span>
+                    <p>
+                        Après l’obtention d’un bac général spécialités Maths, Physique et HGGSP je me suis dirigée vers une <b>hypokhâgne BL</b> (Lettres et Sciences Sociales). Mon année de <b>khâgne en AL spécialité Histoire-Géographie</b> m’a fait redécouvrir la Géographie et a éveillé chez moi une appétence pour cette dernière qui n’a d’ailleurs eu de cesse de croître jusqu’alors. En effet, à l’issue de ces deux années de CPGE m’ayant permis de cultiver un champ de connaissances variées, je me suis naturellement orientée vers une <b>licence 3 de Géographie et Aménagement à l’Université de Bourgogne</b>. Cette dernière paraissait être la formation idoine pour entretenir mon intérêt prégnant pour les enjeux environnementaux et ceux de la transition écologique.
+                    </p>
+                    <p>
+                        Dans cette continuité, je candidate aujourd’hui aux masters <b>mention Géographie, Aménagement, Environnement et Développement, et mention Urbanisme et Aménagement</b>.
+                    </p>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="otherContainer">
+        <p>Contact</p>
+    </div> -->
+    <div class="contact">
+        <div>
+            <h1 class="poppins-regular" >eden.mantoux@gmail.com</h1>
+        </div>
+            <div class="subContact">
+                <h2 class="poppins-regular" >07 82 54 94 68</h2>
+                <h2>·</h2>
+                <h2 class="poppins-regular" >16 rue de Mulhouse - 21000 Dijon</h2>
+                <h2>·</h2>
+                <h2 class="poppins-regular">
+                    <a href="https://www.linkedin.com/in/eden-mantoux-7a6bb4295/">LinkedIn</a>
+                </h2>
+            </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+
+    </script>
+
+    
+</body>
+</html>

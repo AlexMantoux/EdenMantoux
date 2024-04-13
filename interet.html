@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="interet.css">
+    <title>Centres d'intéret</title>
+    <link rel="icon" type="image/png" href="./src/Logo.png">
+</head>
+<body id="bodyInteret">
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logoContainer">
+                        <img src="./src/Logo.png" alt="Logo">
+                    </div>
+                </a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li ><a href="etude.html">Études</a></li>
+                    <li><a href="projet.html">Projets</a></li>
+                    <li><a href="experiences.html">Expériences</a></li>
+                    <li><a href="interet.html">Centres d'intérêt</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home" id="interet">
+        <div class="citationBlock">
+            <h1 class="poppins-regular">Centres d'intérêt</h1>
+        </div>
+    </section>
+
+    <div>
+        
+        
+        <div class='cursor2' id="cursor2"></div>
+        <div class='cursor3' id="cursor3"></div> 
+    
+        <div class="section">
+            <ul class="case-study-wrapper">
+                <li class="case-study-name">                            	
+                    <a href="./interets/photos.html" class="hover-target">Photographie</a>
+                </li>
+                <li class="case-study-name">                                         	
+                    <a href="./interets/litterature.html" class="hover-target">Littérature</a>
+                </li>
+                <li class="case-study-name">                                        	
+                    <a href="./interets/sport.html" class="hover-target">Sport</a>
+                </li>
+            </ul>
+            <ul class="case-study-images">
+                <li>
+                    <div class="img-hero-background">
+                        <div class="img-hero-background">
+                            <span>
+                                <img src="./src/p1.png" alt="">
+                            </span> 
+                            <span>
+                                <img src="src/p3.png" alt="">
+                            </span> 
+                            <span>
+                                <img src="./src/p5.png" alt="">
+                            </span> 
+                            <span>
+                                <img src="src/p6.png" alt="">
+                            </span> 
+                        </div> 
+                    </div> 
+                    <div class="hero-number">01</div> 
+                    <div class="hero-number-fixed">03</div> 
+                </li>
+                <li>
+                    <div class="img-hero-background">
+						<span>
+							<img src="src/l1.jpg" alt="">
+						</span> 
+						<span>
+							<img src="src/l5.jpeg" alt="">
+						</span> 
+						<span>
+                            <img src="./src/l4.jpg" alt="">
+						</span> 
+						<span>
+                            <img src="./src/l3.jpeg" alt="">
+						</span> 
+					</div> 
+                    <div class="hero-number">02</div>  
+                </li>
+                <li> 
+                    <div class="hero-number">03</div> 
+                </li>
+            </ul>	
+        </div>
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+    
+</body>
+</html>
